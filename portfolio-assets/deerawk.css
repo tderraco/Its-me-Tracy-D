@@ -1,0 +1,104 @@
+
+  
+.main-header { 
+      display: flex;   
+      flex-wrap: wrap;
+      background-color: rgb(121, 119, 118);
+     
+    }
+ 
+#name, #navbar li, #Me, #paragraph, #banner, .Work {
+    font-family: 'League Gothic', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Special Elite', cursive;
+}
+
+#name, #navbar {
+      display: flex;
+      flex: 1;
+     
+  }
+ 
+#name {
+    margin-left: 10px;
+}
+#navbar{
+    justify-content: space-between;
+    align-items: flex-end;
+
+ }
+
+#navbar li {
+    display:inline-block;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 10px;
+
+}
+#Contact {
+    margin-right: 10px;
+}
+#banner {
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-image: url(./portfolio-banner.jpg);
+    background-size: cover;
+    height: 25vh;
+  
+}
+
+.propic {
+    padding: 10px;
+    width: 125px;
+    height: 17vh;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    background-image: url(./IMG_6503.jpg) ;
+    background-size: cover;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+.About-Me {
+    display:flex;
+    flex-wrap: wrap;
+}
+#Me {
+    flex: 0 0 10%;
+    margin-right: 125px;
+    border-right:1px solid  black;
+}
+#paragraph {
+    flex: 0 0 75%;
+    align-items: center;
+   
+}
+
+.Work{
+    font-size: 25px;
+    margin-right: 1225px;
+    border-right:1px solid  black;
+}
+.imgbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    background-image:url("./Horiseon.png");
+    background-size: cover;
+    width: 70%;
+    height: 50vh;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.boxes {
+    align-items: flex-end;
+}
+
