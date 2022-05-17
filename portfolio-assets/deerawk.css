@@ -7,7 +7,7 @@
      
     }
  
-#name, #navbar li, #Me, #paragraph, #banner, .Work {
+#name, #navbar li, #Me, #paragraph, #banner, .Work, #contact{
     font-family: 'League Gothic', sans-serif;
     font-family: 'Roboto Slab', serif;
     font-family: 'Special Elite', cursive;
@@ -70,7 +70,7 @@
 #Me {
     flex: 0 0 10%;
     margin-right: 125px;
-    border-right:1px solid  black;
+   
 }
 #paragraph {
     flex: 0 0 75%;
@@ -81,7 +81,7 @@
 .Work{
     font-size: 25px;
     margin-right: 1225px;
-    border-right:1px solid  black;
+   
 }
 .imgbox {
     display: flex;
@@ -101,4 +101,45 @@
 .boxes {
     align-items: flex-end;
 }
+
+.g-col-6 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    box-sizing: border-box;
+    width: 300px;
+    height: 25vh;
+  
+   
+   
+    
+    
+}
+
+.homeWork1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    box-sizing: border-box;
+    width: 300px;
+    height: 25vh;
+    justify-content: center;
+    float: right
+  
+      
+}
+
+.homeWork2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    box-sizing: border-box;
+    width: 300px;
+    height: 25vh;
+    justify-content: center;
+   
+      
+}
+
+
 
