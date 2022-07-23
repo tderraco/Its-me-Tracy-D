@@ -1,0 +1,65 @@
+@import 'variables.css';
+@import 'base.css';
+
+.intro {}
+
+.intro .intro-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 38px;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.intro-wrap div {
+    padding-top: 38px;
+    display: block;
+
+}
+
+.intro__img {
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    width: 240px;
+    align-self: end;
+    justify-self: end;
+}
+
+.section__title {
+    margin-bottom: .25em;
+    font-size: var(--fs-h2);
+}
+
+.section__title--intro {
+    font-weight: var(--fw-reg);
+
+}
+
+
+.section__subtitle {
+    margin: 0;
+    font-size: var(--fs-h3);
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 60px;
+    grid-column-end: span 2;
+    text-align: right;
+    text-transform: uppercase;
+    padding-right: 20px;
+    z-index: 0;
+}
+
+.section__subtitle--intro,
+.section__subtitle--about {
+    background: var(--clr-accent);
+    font-family: var(--ff-secondary);
+}
+
+.section__title--intro span {
+    font-family: var(--ff-secondary);
+
+
+}
