@@ -86,7 +86,7 @@
 
 /*header*/
 
-header {
+.header {
     display: flex;
     justify-content: space-between;
     padding: 1em;
@@ -132,12 +132,14 @@ header {
   }
   
   .nav-toggle {
-    padding: 0.25em;
+    padding: 0.5em;
     background: transparent;
     border: 0;
     cursor: pointer;
     position: absolute;
     right: 1em;
+    top: 1em;
+    z-index: 1000;
 
   }
 
@@ -156,7 +158,7 @@ header {
   }
   .hamburger::before,
   .hamburger::after {
-    content: "";
+    content: '';
     position: absolute;
     left: 0;
     right: 0;
@@ -184,6 +186,28 @@ header {
   color: var(--clr-accent);
   position: relative;
 }
+/*.section__title--services::after {
+    content: '';
+    display: block;
+    width: 3em;
+    height: 1px;
+    margin: 0.5em auto 1em;
+    background: var(--clr-light);
+    opacity: 0.25;
+
+} 
+ .service {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+@media (min-width: 800px) {
+    .services {
+        display: flex;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+} */
 
 .my-work {
     background-color: var(--clr-dark);
@@ -196,12 +220,12 @@ header {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-portfolio__item {
-    background: var(--clr-accent);
+.portfolio__item {
+    background: var(--clr-dark);
     overflow: hidden;
 }
 
-portfolio__img {
+.portfolio__img {
     transition:
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
@@ -211,10 +235,10 @@ portfolio__img {
     z-index: 2;
 }
 
-portfolio__img:hover,
-portfolio__item:focus .portfolio__img {
+.portfolio__img:hover,
+.portfolio__item:focus .portfolio__img {
     transform: scale(1.2);
-    opacity: .5;
+    opacity: .75;
 }
 
 /* footer */
