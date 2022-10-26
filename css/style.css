@@ -24,6 +24,7 @@
   width: 240px;
   align-self: end;
   justify-self: end;
+  margin-top: 1em;
 }
 
 /*
@@ -46,7 +47,7 @@
 }*/
 
 .section__title {
-  margin-bottom: 0.25em;
+  margin-bottom: 0em;
   font-size: var(--fs-h2);
 }
 
@@ -206,11 +207,21 @@
   /* background-blend-mode: multiply; */
   color: var(--clr-light);
   text-align: center;
+  margin-top: 2em;
+  padding: 3em;
 }
 
 .section__title--services {
   color: var(--clr-accent);
   position: relative;
+}
+
+
+
+.fa-brands {
+  display: inline-block;
+  margin: 1em;
+  padding: 40px;
 }
 /*.section__title--services::after {
     content: '';
